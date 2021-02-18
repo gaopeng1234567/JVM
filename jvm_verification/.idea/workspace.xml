@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c768bf0-a6ab-465e-a343-d425a592e59f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/patrick/jvm/runengine/EscapeAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/patrick/jvm/stack/StackSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/patrick/jvm/string/String_001.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oakHG7N11uJ3XWZOrrGIH8BQiu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Application.String_001">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="StackSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.patrick.jvm.stack.StackSize" />
+      <module name="jvm_verification" />
+      <option name="VM_PARAMETERS" value="-Xss160k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.patrick.jvm.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="String_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.patrick.jvm.string.String_001" />
+      <module name="jvm_verification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.patrick.jvm.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StackSize" />
+      <item itemvalue="Application.String_001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.String_001" />
+        <item itemvalue="Application.StackSize" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c768bf0-a6ab-465e-a343-d425a592e59f" name="Default Changelist" comment="" />
+      <created>1613532000323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613532000323</updated>
+      <workItem from="1613532002063" duration="3176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="302" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613535993074">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state x="488" y="302" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1280@0.0.2048.1280" timestamp="1613535993074" />
+    <state width="2006" height="363" key="GridCell.Tab.0.bottom" timestamp="1613560254934">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="363" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1613560254934" />
+    <state width="2006" height="363" key="GridCell.Tab.0.center" timestamp="1613560254933">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="363" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1613560254933" />
+    <state width="2006" height="363" key="GridCell.Tab.0.left" timestamp="1613560254932">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="363" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1613560254932" />
+    <state width="2006" height="363" key="GridCell.Tab.0.right" timestamp="1613560254934">
+      <screen x="0" y="0" width="2048" height="1280" />
+    </state>
+    <state width="2006" height="363" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1613560254934" />
+  </component>
+</project>
