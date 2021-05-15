@@ -1,11 +1,13 @@
 package com.patrick.jvm.string;
 
+import org.junit.Test;
+
 /**
  * @author patrick
  * @date 2021/2/17 7:03 下午
  * @Des demo
  * 最簡單的事是堅持，最難的事還是堅持
- *
+ * <p>
  * String字符串理解
  * 自JDK1.8之后，字符串常量池就已经不在方法区了，在堆中开辟了一个空间存放字符串，那么在代码中势必存在好多变量名不同，
  * 但是值是相同的字符串，而我们的堆又是有固定大小的，所义JVM实现字符串常量池是这样设计的，
@@ -21,10 +23,10 @@ package com.patrick.jvm.string;
  */
 public class String_001 {
     public static void main(String[] args) {
-        fun2();
+        fun4();
     }
 
-    public static void fun1(){
+    public static void fun1() {
         String s1 = new String("1");
         String s2 = "1";
         String s3 = s1 + s2;
@@ -34,7 +36,8 @@ public class String_001 {
         String s4 = "11";
         System.out.println(s4 == s3);
     }
-    public static void fun2(){
+
+    public static void fun2() {
         final String s1 = "1";
         final String s2 = "1";
         String s3 = s1 + s2;
@@ -44,7 +47,9 @@ public class String_001 {
         String s4 = "11";
         System.out.println(s4 == s3);
     }
-    public static void fun3(){
+
+    @Test
+    public  void fun3() {
         final String s1 = new String("1");
         final String s2 = new String("1");
         String s3 = s1 + s2;
@@ -53,5 +58,9 @@ public class String_001 {
 
         String s4 = "11";
         System.out.println(s4 == s3);
+    }
+
+    public static void fun4() {
+        String str = "天气" + new String("真好");
     }
 }

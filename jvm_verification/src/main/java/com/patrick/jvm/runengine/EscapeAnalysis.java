@@ -2,6 +2,10 @@ package com.patrick.jvm.runengine;
 
 /**
  * 逃逸分析
+ *
+ * 逃到哪里去了？
+ *  方法外
+ *  线程外
  */
 public class EscapeAnalysis {
 
